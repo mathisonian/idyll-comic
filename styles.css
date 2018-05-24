@@ -1006,6 +1006,7 @@ svg {
   margin: 0 auto;
   display: block;
   text-align: center;
+  overflow: hidden;
 }
 
 .panel svg {
