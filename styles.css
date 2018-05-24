@@ -921,6 +921,38 @@ hr {
 
 
 
+@font-face {
+  font-family: 'Komika Hand';
+  src: url('/static/fonts/KomikaHand-Italic.woff2') format('woff2'),
+      url('/static/fonts/KomikaHand-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Komika Hand';
+  src: url('/static/fonts/KomikaHand.woff2') format('woff2'),
+      url('/static/fonts/KomikaHand.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Komika Hand';
+  src: url('/static/fonts/KomikaHand-Bold.woff2') format('woff2'),
+      url('/static/fonts/KomikaHand-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Komika Hand';
+  src: url('/static/fonts/KomikaHand-BoldItalic.woff2') format('woff2'),
+      url('/static/fonts/KomikaHand-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
 /* Put your custom styles here */
 
 .idyll-root {
@@ -1031,7 +1063,7 @@ iframe {
 }
 
 .caption {
-  font-family: 'KomikaHand';
+  font-family: 'Komika Hand';
   display: flex;
   flex-direction: column;
   justify-content: center;
