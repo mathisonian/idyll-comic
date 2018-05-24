@@ -1029,7 +1029,7 @@ svg {
 
 @media(max-width:800px) {
   .container {
-    /* grid-auto-columns: 1fr; */
+    grid-auto-columns: 1fr;
   }
 
   .panel, .caption {
@@ -1037,6 +1037,9 @@ svg {
   }
   .fullscreen iframe {
     transform: scale(0.33);
+  }
+  .hide-mobile {
+    display: none;
   }
 }
 
