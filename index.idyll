@@ -1,0 +1,93 @@
+
+[meta title:"A Comic Introduction to Idyll "
+  description:"Adventures with the CSS grid and Idyll interactive markup language."
+  twitterHandle:"mathisonian"
+  shareImageUrl:"https://mathisonian.github.io/idyll-comic/static/share.png"
+  shareImageWidth:"1200"
+  shareImageHeight:"600"
+   /]
+
+
+[div fullWidth:true className:"container"]
+
+  [Caption row:1 column:1 width:4 height:1 style:`{
+    background: '#E7E3D0',
+    color: 'black'
+  }`]
+    [h1 style:`{marginBottom: 0}`]A [span style:`{color: 'rgb(97, 34, 251)'}`]Comic[/span] Introduction to Idyll[/h1]
+
+    [h4 style:`{marginTop: 0}`]By [a style:`{color: 'black', textDecoration: 'underline'}` href:"https://twitter.com/mathisonian"]Matthew Conlen[/a][/h4]
+  [/Caption]
+
+  [Caption row:2 column:1 width:3 height:1 style:`{
+    background: '#FFFFFF',
+    color: 'black',
+    padding: '0 100px'
+  }`]
+
+    ## Idyll is a tool to help writers publish articles with creative and interactive components.
+  [/Caption]
+  [Caption row:3 column:2 width:2 height:2 style:`{
+    background: '#FFFFFF',
+    color: 'black'
+  }`]
+    ### Click on articles to expand them.
+
+    ### Keep reading to see some of our interactives on math and computer science topics.
+  [/Caption]
+
+  [Panel className:"hide-mobile" row:3 column:1 width:1 height:2 style:`{textAlign: 'center'}`]
+    [a  style:`{alignSelf:'center', disply:'block', margin: '0 auto'}`  href:"https://idyll-lang.org"][img style:`{disply:'block', margin: '0 auto'}` src:"https://idyll-lang.org/static/images/quill.svg" /][/a]
+  [/Panel]
+
+
+  [EmbedPanel row:2 column:4 width:1 height:3 borderColor:"rgb(97, 34, 251)" url:"https://mathisonian.github.io/idyll/a-walk-on-the-idyll-side/" /]
+
+
+
+  [Caption row:5 column:1 width:1 height:2 ]
+    # The math behind force-directed layouts
+  [/Caption]
+
+  [EmbedPanel row:5 column:2 width:3 height:2 /]
+
+  [Caption row:7 column:3 width:2 height:2 alt:true ]
+    # Estimating curves from datapoints
+  [/Caption]
+
+  [EmbedPanel row:7 column:1 width:2 height:2 url:"https://mathisonian.github.io/kde/" /]
+
+
+  [Panel className:"hide-mobile" row:9 column:4 width:1 height:1 color:"#97AF99" /]
+
+  [Caption row:9 column:1 width:3 height:1 style:`{
+    background: '#fff',
+    color: '#2A2430'
+  }`]
+    # Graph Search Algorithms
+  [/Caption]
+
+[EmbedPanel row:10 column:1 width:4 height:2 url:"https://cse442-17f.github.io/A-Star-Search/" /]
+
+
+
+  [Caption row:12 column:1 width:2 height:1 style:`{
+    background: '#fff',
+    color: '#000'
+  }`]
+    [a href:"https://idyll-lang.org/gallery"]# And Many More...[/a]
+
+
+  [/Caption]
+
+  [Caption row:13 column:3 width:2 height:2 style:`{
+    background: '#E7E3D0',
+    color: '#000'
+  }`]
+    [a href:"https://idyll-lang.org"]# documentation[/a]
+    [a href:"https://github.com/idyll-lang/idyll"]# github[/a]
+    [a href:"https://gitter.im/idyll-lang/"]# chatroom[/a]
+  [/Caption]
+
+[/div]
+

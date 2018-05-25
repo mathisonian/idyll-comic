@@ -1,0 +1,18 @@
+{
+  "name": "interactive-comics",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "idyll index.idyll --theme github --css styles.css --watch",
+    "build": "idyll --no-minify=true index.idyll --theme github --css styles.css",
+    "gh-pages": "gh-pages -d ./build",
+    "deploy": "npm run build && gh-pages -d ./build"
+  },
+  "dependencies": {
+    "d3": "^4.0.0",
+    "idyll": "^2.13.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
